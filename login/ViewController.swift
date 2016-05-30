@@ -22,6 +22,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     @IBAction func btndangnhap(sender: AnyObject) {
+        if (txtuser.text == "") || (txtpassword.text == "") {
+            print  ("user và pass ko đc trống")
+        }
+        else{
         if let password = users[txtuser.text!]
         {
             if password == txtpassword.text{
@@ -33,6 +37,7 @@ class ViewController: UIViewController {
         }
         else{
            print ("Tài khoản ko tồn tại")
+        }
         }
     }
     
