@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A02153F1CF5E4D4009B7C03 /* light_sky_stars_background_85555_750x1334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A02153E1CF5E4D4009B7C03 /* light_sky_stars_background_85555_750x1334.jpg */; };
 		1A04D2911CF5A20F00831CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04D2901CF5A20F00831CBB /* AppDelegate.swift */; };
 		1A04D2931CF5A20F00831CBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04D2921CF5A20F00831CBB /* ViewController.swift */; };
 		1A04D2961CF5A20F00831CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A04D2941CF5A20F00831CBB /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A02153E1CF5E4D4009B7C03 /* light_sky_stars_background_85555_750x1334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = light_sky_stars_background_85555_750x1334.jpg; path = ../../../../Users/information/Downloads/light_sky_stars_background_85555_750x1334.jpg; sourceTree = "<group>"; };
 		1A04D28D1CF5A20E00831CBB /* login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A04D2901CF5A20F00831CBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A04D2921CF5A20F00831CBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A02153D1CF5E4B3009B7C03 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				1A02153E1CF5E4D4009B7C03 /* light_sky_stars_background_85555_750x1334.jpg */,
+			);
+			name = img;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		1A04D2841CF5A20E00831CBB = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +65,7 @@
 		1A04D28F1CF5A20F00831CBB /* login */ = {
 			isa = PBXGroup;
 			children = (
+				1A02153D1CF5E4B3009B7C03 /* img */,
 				1A04D2901CF5A20F00831CBB /* AppDelegate.swift */,
 				1A04D2921CF5A20F00831CBB /* ViewController.swift */,
 				1A04D2941CF5A20F00831CBB /* Main.storyboard */,
@@ -124,6 +136,7 @@
 			files = (
 				1A04D29B1CF5A20F00831CBB /* LaunchScreen.storyboard in Resources */,
 				1A04D2981CF5A20F00831CBB /* Assets.xcassets in Resources */,
+				1A02153F1CF5E4D4009B7C03 /* light_sky_stars_background_85555_750x1334.jpg in Resources */,
 				1A04D2961CF5A20F00831CBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +301,7 @@
 				1A04D2A11CF5A20F00831CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
