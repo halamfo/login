@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A02153F1CF5E4D4009B7C03 /* light_sky_stars_background_85555_750x1334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A02153E1CF5E4D4009B7C03 /* light_sky_stars_background_85555_750x1334.jpg */; };
 		1A04D2911CF5A20F00831CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04D2901CF5A20F00831CBB /* AppDelegate.swift */; };
 		1A04D2931CF5A20F00831CBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04D2921CF5A20F00831CBB /* ViewController.swift */; };
 		1A04D2961CF5A20F00831CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A04D2941CF5A20F00831CBB /* Main.storyboard */; };
 		1A04D2981CF5A20F00831CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A04D2971CF5A20F00831CBB /* Assets.xcassets */; };
 		1A04D29B1CF5A20F00831CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A04D2991CF5A20F00831CBB /* LaunchScreen.storyboard */; };
+		1A69983A1CFDC00E005BFC18 /* light_sky_stars_background_85555_750x1334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A6998391CFDC00E005BFC18 /* light_sky_stars_background_85555_750x1334.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A02153E1CF5E4D4009B7C03 /* light_sky_stars_background_85555_750x1334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = light_sky_stars_background_85555_750x1334.jpg; path = ../../../../Users/information/Downloads/light_sky_stars_background_85555_750x1334.jpg; sourceTree = "<group>"; };
 		1A04D28D1CF5A20E00831CBB /* login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A04D2901CF5A20F00831CBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A04D2921CF5A20F00831CBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +23,7 @@
 		1A04D2971CF5A20F00831CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A04D29A1CF5A20F00831CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A04D29C1CF5A20F00831CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6998391CFDC00E005BFC18 /* light_sky_stars_background_85555_750x1334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = light_sky_stars_background_85555_750x1334.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		1A02153D1CF5E4B3009B7C03 /* img */ = {
 			isa = PBXGroup;
 			children = (
-				1A02153E1CF5E4D4009B7C03 /* light_sky_stars_background_85555_750x1334.jpg */,
+				1A6998391CFDC00E005BFC18 /* light_sky_stars_background_85555_750x1334.jpg */,
 			);
 			name = img;
 			path = ..;
@@ -136,7 +136,7 @@
 			files = (
 				1A04D29B1CF5A20F00831CBB /* LaunchScreen.storyboard in Resources */,
 				1A04D2981CF5A20F00831CBB /* Assets.xcassets in Resources */,
-				1A02153F1CF5E4D4009B7C03 /* light_sky_stars_background_85555_750x1334.jpg in Resources */,
+				1A69983A1CFDC00E005BFC18 /* light_sky_stars_background_85555_750x1334.jpg in Resources */,
 				1A04D2961CF5A20F00831CBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
